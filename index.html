@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BOCCIA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/estilo.css" rel="stylesheet" type="text/css">
+		
+		<script src="js/jquery-3.3.1.min.js"></script>
+		
+		<script type="text/javascript">
+		
+		$(document).ready(function () {
+		
+		
+			
+			$(".cabecera").hide(700);
+			$(".menu").hide(900);
+			$(".cuerpo").hide(600);
+			$(".pie").hide(100);
+			
+			$(".cabecera").show(2000);
+			
+			
+			$(".menu").fadeIn(4000);
+			
+			$(".pie").fadeIn(3000);
+			
+			
+			$(".cuerpo").slideDown(6000);
+			
+			
+			$(".cuerpo img").mouseenter(function () {
+				$(this).animate({width:'+=200'}, 1000);
+				$(this).animate({width:'-=200'}, 1000);
+				
+			});
+			
+			
+			
+			
+		});
+		
+		</script>
+	</head>
+	
+	<body>
+	
+		<div class="principal">
+		
+			<div class ="cabecera">
+			
+				<h1>La magia de la Boccia</h1>
+
+			</div>
+			
+			<div class ="menu">
+			
+			   <ul>
+			   
+		        <li><a href="index.html">Inicio</a></li>
+              <li><a href="reglas.html">Reglas</a></li>
+              <li><a href="categorias.html">Categorias</a></li>
+              <li><a href="jugadores.html">Jugadores</a></li>
+              <li><a href="equipos.html">Equipos</a></li>
+              		        
+		        
+		        
+			   </ul>
+			   
+			</div>
+			
+			<div class ="cuerpo">
+			
+				<h2>Inicio</h2>
+				
+				 Es un juego diseñado para personas con discapacidades, inspirado en el juego de origen italiano bocce o bochas, de donde toma su nombre, y aceptado como deporte paralímpico desde 1984. 
+				 Se aplican las reglas de la BISFed (Federación Internacional Deportiva de Boccia). 
+				 Inicialmente jugado solo por deportistas con parálisis cerebral, actualmente puede ser jugado por deportistas en sillas de ruedas con discapacidades totales o parciales en sus extremidades.
+				 Se utilizan cuatro clasificaciones a fin de garantizar la paridad entre los competidores (BC1, BC2, BC3 y BC4).
+				 Se juega en competencias individuales (BC1 a BC4), por parejas (BC3 y BC4) o en equipos de tres jugadores (BC1-BC2).
+				 En todas las pruebas pueden participar varones o mujeres, indistintamente.
+				 
+				
+				
+			</div>
+			
+			
+			<div class ="pie">
+				
+				<p>&copy; Página realizada por A.J.B.C en 2018.</p>
+				
+			</div>
+
+
+
+	
+		</div>
+
+	
+	</body>
+
+</html>

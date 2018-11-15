@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BOCCIA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/estilo.css" rel="stylesheet" type="text/css">
+		
+	<script src="js/jquery-3.3.1.min.js"></script>
+		
+		<script type="text/javascript">
+		
+		$(document).ready(function () {
+		
+		
+			
+			$(".cabecera").hide(500);
+			$(".menu").hide(500);
+			$(".cuerpo").hide(500);
+			$(".pie").hide(500);
+			
+			$(".cabecera").show(3000);
+			
+			
+			$(".menu").fadeIn(3000);
+			
+			$(".pie").fadeIn(3000);
+			
+			
+			$(".cuerpo").slideDown(6000);
+			
+			
+			$(".cuerpo img").mouseenter(function () {
+				$(this).animate({width:'+=200'}, 1000);
+				$(this).animate({width:'-=200'}, 1000);
+				
+			});
+			
+			
+			
+			
+		});
+		
+		</script>
+	</head>
+	
+	<body>
+	
+		<div class="principal">
+		
+			<div class ="cabecera">
+			
+				<h1>La magia de la Boccia</h1>
+
+			</div>
+			
+			<div class ="menu">
+			
+			   <ul>
+			   
+		        <li><a href="index.html">Inicio</a></li>
+              <li><a href="reglas.html">Reglas</a></li>
+              <li><a href="categorias.html">Categorias</a></li>
+              <li><a href="jugadores.html">Jugadores</a></li>
+              <li><a href="equipos.html">Equipos</a></li>	        
+		        
+		        
+			   </ul>
+			   
+			</div>
+			
+			<div class ="cuerpo">
+			
+				<h2>Equipos</h2>
+				
+<p>Jugar en equipos es mas responsabilidad que jugar en individual.</p>
+<p>Porque si falla puede perjudicar al equipo.</p> 
+<p>En equipo juega 3 jugadores, 1 reserva y el capitán.</p>
+<p>En equipos los entrenadores/as pueden pueden perdí tiempo muerto para dar indicaciones.</p>
+<p>Cuando estamos en pleno partido los entrenadores tienen que estar callados dentro o fuera del box.</p>
+<p>en equipos tenemos 6 minutos para tirar las 6 bolas.</p>
+<p>en caso de empate ponen la bola blanca en el centro, se sortea a ver quien saca.</p>
+<p>También hay tarjetas rojas y amarrillas.</p>
+<p>No se puede salir de box.</p>
+<p>No se puede pisar la raya amarrilla.</p>
+<p>En turno del otro equipo no se puede ni hablar ni moverse.</p>
+<p>No se puede salir las bolas del box.</p>
+<p>El capitan es quien mandar pero tambien pueden decir otra opinión.</p>
+				 
+				
+				
+			</div>
+			
+			
+			<div class ="pie">
+				
+				<p>&copy; Página realizada por A.J.B.C en 2018.</p>
+				
+			</div>
+
+
+
+	
+		</div>
+
+	
+	</body>
+
+</html>
